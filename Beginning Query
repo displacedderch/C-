@@ -1,0 +1,23 @@
+#include <iostream>  // Still in progress, greets users
+
+int main() {
+    std::string name;
+    int num1, num2, sum;
+
+    std::cout << "Enter your name: ";
+    std::cin >> name;
+
+    std::cout << "Hello, " << name << "! Let's add two numbers together." << std::endl;
+
+    std::cout << "Enter the first number: ";
+    std::cin >> num1;
+
+    std::cout << "Enter the second number: ";
+    std::cin >> num2;
+
+    sum = num1 + num2;
+
+    std::cout << "The sum of " << num1 << " and " << num2 << " is " << sum << "." << std::endl;
+
+    return 0;  // Indicate that the program finished successfully
+}
